@@ -1,11 +1,15 @@
+#IMPORTAMOS ABC PARA CREAR CLASES ABSTRACTAS
+from abc import ABC, abstractmethod
+
 #CREAMOS LA CLASE BASE PARA CADA TIPO DE REPORTE
-class Reporte:
+class Reporte(ABC):
     #CONSTRUCTOR DEL REPORTE
     def __init__(self, id, fecha):
         self._id = id
         self._fecha = fecha
 
     #METODO QUE SE IMPLEMENTARAA LOS TIPOS DE REPORTE
+    @abstractmethod
     def generar(self):
         pass
 
