@@ -42,6 +42,21 @@ def test_dni_invalido():
             "999999999"
         )
 
+#COMPROBRAMOS QUE EL SISTEMA RECHACE NOMBRE CON NUMEROS O CARACTERES ESPECIALES
+def test_nombre_invalido():
+    with pytest.raises(ValueError):
+        Paciente("12345678", "Juan123", 20, "987654321")
+
+#COMPROBAMOS QUE LA EDAD SEA UN NUMERO POSITIVO
+def test_edad_invalida():
+    with pytest.raises(ValueError):
+        Paciente("12345678", "Juan Perez", -5, "987654321")
+
+#COMPROBAMOS QUE EL TELEFONO SEA UN NUMERO DE 9 DIGITOS
+def test_telefono_invalido():
+    with pytest.raises(ValueError):
+        Paciente("12345678", "Telefono", 30, "12345")
+
 #COMPROBAMOS QUE NO SE PUEDA REGISTRAR EL MISMO PACIENTE DOS VECES
 def test_no_registrar_paciente_repetido():
     sistema = obtener_sisteam()
