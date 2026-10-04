@@ -20,7 +20,7 @@ def registrar_atencion(ventana, sistema):
         font=("Arial", 16)
     ).pack(pady=15)
 
-    #ID DE LA CITA arreglarlo
+    #ID DE LA CITA
     tk.Label(ventana_atencion, text="ID de cita:").pack()
     entrada_cita = tk.Entry(ventana_atencion)
     entrada_cita.pack(pady=5)

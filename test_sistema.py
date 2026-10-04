@@ -1,5 +1,5 @@
 #IMPORTAMOS PYTEST PARA TESTEAR NUESTRO SISTEMA
-import pytest 
+import pytest
 
 #IMPORTAMOS LOS MODELOS Y SISTEMA
 from modelos import Paciente, Cita, Atencion

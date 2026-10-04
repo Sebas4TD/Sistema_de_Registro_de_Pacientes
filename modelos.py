@@ -8,6 +8,11 @@ class Paciente:
             raise ValueError("El DNI debe ser de 8 dígitos")
         
         self._id = id
+
+        #VALIDAMOS QUE SE PERMITA SOLO LETRAS EN EL NOMBRE
+        if not nombre.replace(" ", "").isalpha():
+            raise ValueError("El nombre solo puede contener letras")
+        
         self._nombre = nombre
         self._edad = edad
         self._telefono = telefono
