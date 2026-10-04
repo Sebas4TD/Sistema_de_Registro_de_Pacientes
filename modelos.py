@@ -15,10 +15,10 @@ class Paciente:
         #MUESTRA LOS DATOS DEL PACIENTE
     def mostrar_datos(self):
         return (
-            f"DNI: {self._id}\n",
-            f"Nombre: {self._nombre}\n",
-            f"Edad: {self._edad}\n",
-            f"Teléfono:{self._telefono}\n"
+            f"DNI: {self._id}\n"
+            f"Nombre: {self._nombre}\n"
+            f"Edad: {self._edad}\n"
+            f"Teléfono:{self._telefono}"
         )
 
 class Cita:

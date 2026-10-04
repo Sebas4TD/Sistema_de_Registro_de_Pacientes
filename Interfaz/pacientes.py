@@ -113,8 +113,7 @@ def buscar_paciente(ventana, sistema):
 
         if paciente:
             resultado.config(
-                text="Paciente encontrado:\n" +
-                paciente.mostrar_datos()
+                text="Paciente encontrado:\n\n" + paciente.mostrar_datos()
             )
         else:
             resultado.config(
