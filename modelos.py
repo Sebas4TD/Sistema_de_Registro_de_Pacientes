@@ -14,7 +14,17 @@ class Paciente:
             raise ValueError("El nombre solo puede contener letras")
         
         self._nombre = nombre
+
+        #VALIDAMOS QUE LA EDAD SEA UN NUMERO POSITIVO
+        if not str(edad).isdigit() or int(edad) <= 0:
+            raise ValueError("La edad debe ser un número positivo")
+        
         self._edad = edad
+
+        #VALIDAMOS QUE EL TELEFONO SEA UN NUMERO DE 9 DIGITOS
+        if not str(telefono).isdigit() or len(str(telefono)) != 9:
+            raise ValueError("El número telefónico debe ser de 9 dígitos")
+        
         self._telefono = telefono
 
         #MUESTRA LOS DATOS DEL PACIENTE
