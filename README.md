@@ -1,32 +1,45 @@
-Sistema de Registro de Pacientes
+# Sistema de Registro de Pacientes 🏥
 
-Este proyecto nació con la idea de aportar una solución a un problema que todavía se presenta en muchos establecimientos de salud: la organización de la información de los pacientes.
+Este proyecto busca aportar una solución al problema de organización de información en el Centro de Salud Rural “Santa Rosa”, ubicado en Chugur, Cajamarca.
 
-Nuestro sistema está pensado para el Centro de Salud Rural “Santa Rosa”, ubicado en Chugur, Cajamarca. Actualmente, el caso planteado utiliza un cuaderno físico para registrar los datos, por lo que proponemos una aplicación que facilite el registro y la consulta de información.
+Proponemos un sistema sencillo que facilite el registro y la consulta de pacientes, citas y atenciones médicas.
 
-¿Qué permite hacer?
-Registrar y buscar pacientes por su DNI.
-Registrar y consultar citas médicas.
-Registrar atenciones relacionadas con una cita.
-Generar reportes de citas y atenciones.
-Validar los datos ingresados para evitar registros incorrectos.
-Tecnologías utilizadas
-Python: para desarrollar la lógica del sistema.
-Tkinter: para crear la interfaz gráfica.
-Git y GitHub: para registrar los avances y guardar el código.
-pytest: para realizar pruebas automatizadas.
-¿Qué aprendimos?
+## 📌 ¿Qué permite hacer?
 
-Durante el desarrollo aplicamos programación orientada a objetos, programación funcional y programación dirigida por eventos. También trabajamos con diagramas UML, patrones de diseño, validaciones y pruebas para comprobar el funcionamiento del sistema.
+- Registrar y buscar pacientes por su DNI.
+- Registrar y consultar citas médicas.
+- Registrar atenciones relacionadas con una cita.
+- Generar reportes de citas y atenciones.
+- Validar datos para evitar registros incorrectos.
 
-Alcance del proyecto
+## 🛠️ Tecnologías utilizadas
 
-Este es un proyecto académico desarrollado como parte del curso de Lenguajes de Programación. Su objetivo es aplicar los conocimientos aprendidos mediante una solución sencilla y funcional.
+- **Python:** lógica del sistema.
+- **Tkinter:** interfaz gráfica.
+- **Git y GitHub:** control de versiones y almacenamiento del código.
+- **pytest:** pruebas automatizadas.
 
-Para las pruebas utilizamos datos ficticios. El sistema todavía puede mejorar con una base de datos permanente, una interfaz más completa y permisos de acceso para proteger la información.
+## 📚 ¿Qué aprendimos?
 
-Integrantes:
-Sebastian Torres, Miguel Sernaque y Carlos Tanta.
+Durante el proyecto aplicamos:
 
-Curso: Lenguajes de Programación
-Institución: Universidad Privada del Norte (UPN)
+- Programación orientada a objetos.
+- Programación funcional con `map`, `filter` y `reduce`.
+- Programación dirigida por eventos.
+- Diagramas UML y patrones de diseño.
+- Validaciones y pruebas automatizadas.
+
+## 🔒 Alcance del proyecto
+
+Este es un proyecto académico del curso de Lenguajes de Programación. Para las pruebas utilizamos datos ficticios.
+
+Como mejoras futuras, proponemos incorporar una base de datos, mejorar la interfaz y agregar permisos de acceso.
+
+## 👥 Integrantes
+
+- Sebastian Torres
+- Miguel Sernaque
+- Carlos Tanta
+
+**Curso:** Lenguajes de Programación  
+**Institución:** Universidad Privada del Norte (UPN)
